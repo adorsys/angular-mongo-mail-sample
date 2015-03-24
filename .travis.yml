@@ -5,4 +5,4 @@ deploy:
     secure: iKJHl5QlCfYFT4k3yNDV2w1KnW4g+Ms/KlKbO54HP2qT6NUtRDdV+MyCHq6Q3D1fEyfc11dtVfUFxkcO59AT3QClp+7k1kuZtF6rt4Gs8x9nrSFe/nN2t+SwDTiwzAIqD4mgintAHJiVFez07Q/dCwNEyXtVYivLBHy5Gg9EKNw=
   file: target/sample.war
   on:
-    repo: adorsys/angular-mongo-mail-sample
+    tags: true
