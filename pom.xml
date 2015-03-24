@@ -7,6 +7,12 @@
   <version>1.0-SNAPSHOT</version>
   <name>sample webapp</name>
   <url>http://www.adorsys.de</url>
+
+  <properties>
+    <finalName>${project.artifactId}-${project.version}</finalName>
+  </properties>
+  <build>
+
   <dependencyManagement>
     <dependencies>
       <dependency>
@@ -82,7 +88,7 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>sample</finalName>
+    <finalName>${finalName}</finalName>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
