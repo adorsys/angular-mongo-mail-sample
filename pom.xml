@@ -11,7 +11,6 @@
   <properties>
     <finalName>${project.artifactId}-${project.version}</finalName>
   </properties>
-  <build>
 
   <dependencyManagement>
     <dependencies>
